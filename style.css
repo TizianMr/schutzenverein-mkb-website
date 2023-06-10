@@ -1,0 +1,38 @@
+/* Navbar section */
+
+.navbar {
+    transition: background-color 0.3s ease;
+    width: 70%;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.navbar.sticky {
+    background-color: #222222;
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        background-color: #222222;
+        width: 100%;
+        border-radius: 0px;
+        margin-top: 0px;
+    }
+}
+
+/* Home section */
+
+.hero-container {
+    height: 100%;
+    color: white;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/img/hero.jpg);
+    background-position: center top;
+    background-size: cover;
+}
