@@ -1,3 +1,8 @@
+html,
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
 /* Navbar section */
 
 .navbar {
@@ -35,4 +40,20 @@
     background-image: url(assets/img/hero.jpg);
     background-position: center top;
     background-size: cover;
+}
+
+/* Main section */
+
+.about-us {
+    padding-top: 10rem;
+}
+
+.about-us h1 {
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.about-us p {
+    padding-left: 12rem;
+    padding-right: 12rem;
 }
