@@ -2,7 +2,7 @@
 
 .navbar {
     transition: background-color 0.3s ease;
-    width: 60%;
+    width: 70%;
     border-radius: 15px;
     margin: auto;
     margin-top: 20px;
@@ -23,6 +23,11 @@
 }
 
 /* Home section */
+
+.hero-container {
+    height: 100%;
+    color: white;
+}
 
 .home {
     width: 100%;
