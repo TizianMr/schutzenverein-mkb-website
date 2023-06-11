@@ -3,6 +3,11 @@ body {
     font-family: 'Barlow', sans-serif;
 }
 
+main {
+    width: 80%;
+    margin: auto;
+}
+
 /* Navbar section */
 
 .navbar {
@@ -54,13 +59,12 @@ body {
 }
 
 .about-us p {
-    padding-left: 12rem;
-    padding-right: 12rem;
+    margin: auto;
 }
 
 .cards {
-    padding-top: 3rem; 
-    width: 80%;
+    padding-top: 3rem;
+    width: 100%;
 }
 
 .icon-founding {
@@ -73,4 +77,14 @@ body {
 
 .icon-training {
     color: red;
+}
+
+.news-card {
+    border: 1em solid transparent;
+    min-height: 5rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
 }
