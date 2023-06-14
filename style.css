@@ -8,6 +8,14 @@ main {
     margin: auto;
 }
 
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    height: 1px;
+}
+
 /* Navbar section */
 
 .navbar {
@@ -79,12 +87,12 @@ main {
     color: red;
 }
 
-.news-card {
-    border: 1em solid transparent;
-    min-height: 5rem;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 3; /* number of lines to show */
-            line-clamp: 3; 
-    -webkit-box-orient: vertical;
+.blog-post {
+    width: 75%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.blog-image {
+    max-height: 650px;
 }
