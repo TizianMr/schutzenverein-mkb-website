@@ -128,3 +128,13 @@ footer h1 {
 .links:nth-child(1) {
     padding-right: 0.75em;
 }
+
+.external-link {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.external-link:hover {
+    color: green;
+}
