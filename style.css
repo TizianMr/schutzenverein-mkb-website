@@ -96,3 +96,35 @@ hr {
 .blog-image {
     max-height: 650px;
 }
+
+/* Footer section */
+
+footer {
+    background-color: #222222;
+    color: white;
+    padding: 1em;
+    padding-top: 3em;
+    width: 100%;
+}
+
+footer h1 {
+    font-size: 1em;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.footer-icon {
+    padding-right: 0.75em;
+}
+
+.content-footer > * {
+    width: 400px;
+}
+
+.links {
+    color: white;
+}
+
+.links:nth-child(1) {
+    padding-right: 0.75em;
+}
