@@ -105,7 +105,22 @@ hr {
 }
 
 .blog-image {
+    padding: 5em;
+}
+
+.blog-image img {
     max-height: 650px;
+}
+
+@media (max-width: 991px) {
+    .blog-post {
+       
+        width: 100%;
+    }
+
+    .blog-image {
+        padding: 0em;
+    }
 }
 
 /* Footer section */
