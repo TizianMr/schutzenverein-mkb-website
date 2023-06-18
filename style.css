@@ -130,10 +130,11 @@ footer h1 {
 
 .content-footer > * {
     width: 400px;
+    color: darkgray;
 }
 
 .links {
-    color: white;
+    color: darkgray;
 }
 
 .links:nth-child(1) {
