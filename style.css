@@ -18,6 +18,11 @@ hr {
 
 /* Navbar section */
 
+.navbar-logo-text {
+    vertical-align: middle;
+    padding-bottom: 0.2em;
+}
+
 .navbar {
     transition: background-color 0.3s ease;
     width: 70%;
@@ -45,6 +50,12 @@ hr {
 .hero-container {
     height: 100%;
     color: white;
+}
+
+.hero-container h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: darkgray;
 }
 
 .home {
@@ -119,10 +130,11 @@ footer h1 {
 
 .content-footer > * {
     width: 400px;
+    color: darkgray;
 }
 
 .links {
-    color: white;
+    color: darkgray;
 }
 
 .links:nth-child(1) {
