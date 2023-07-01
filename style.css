@@ -185,3 +185,23 @@ footer p {
         flex-direction: column;
     }
 }
+
+@media (max-width: 550px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 550px) {
+    .desktop {
+        display: inline-block;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
