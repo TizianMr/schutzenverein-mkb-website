@@ -127,6 +127,10 @@ footer h1 {
     padding-bottom: 1em;
 }
 
+footer p {
+    margin: 0;
+}
+
 .footer-icon {
     padding-right: 0.75em;
 }
@@ -162,6 +166,10 @@ footer h1 {
         width: 100%;
         border-radius: 0px;
         margin-top: 0px;
+    }
+
+    .content-footer {
+        flex-direction: column;
     }
 
     .blog-post {
