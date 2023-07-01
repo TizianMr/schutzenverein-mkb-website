@@ -180,4 +180,8 @@ footer p {
     .blog-image {
         padding: 0em;
     }
+
+    .highlights {
+        flex-direction: column;
+    }
 }
