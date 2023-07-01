@@ -20,7 +20,6 @@ hr {
 
 .navbar-logo-text {
     vertical-align: middle;
-    padding-bottom: 0.2em;
 }
 
 .navbar {
@@ -30,10 +29,19 @@ hr {
     margin: auto;
     margin-top: 20px;
     backdrop-filter: blur(10px);
+    transition: 0.3s;
 }
 
 .navbar.sticky {
     background-color: #222222;
+}
+
+.navbar.full-width {
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 0px;
+    background-color: #222222;
+    transition: 0.3s;
 }
 
 /* Home section */

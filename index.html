@@ -40,7 +40,7 @@
     </section>
 
     <main>
-      <div class="text-center container section">
+      <div class="text-center container section" id="content">
         <h1>Das sind wir</h1>
         <p>Wir verstehen uns als Zusammenschluss von Menschen aller Altersgruppen aus Kalbach und der näheren Umgebung,
           die den Schießsport aktiv ausüben oder ihn und die zugehörigen Traditionen leben respektive fördern wollen.
@@ -211,6 +211,21 @@
             $('.navbar').removeClass('sticky');
           }
         });
+      });
+
+      document.addEventListener("scroll", function () {
+        var targetElement = document.getElementById("content");
+        var targetPosition = targetElement.getBoundingClientRect();
+        var scrollPosition = window.scrollY || window.pageYOffset;
+        var threshold = targetPosition.top + targetPosition.height * 0.5;
+
+        if (scrollPosition >= threshold) {
+          $('.navbar').removeClass('sticky');
+          $('.navbar').addClass('full-width');
+        } else {
+          $('.navbar').addClass('sticky');
+          $('.navbar').removeClass('full-width');
+        }
       });
     </script>
 
